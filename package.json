@@ -1,18 +1,30 @@
 {
-  "name": "platzi-media-player",
+  "name": "javascript-profesional",
   "version": "1.0.0",
-  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
-  "license": "MIT",
-  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
-  "keywords": [
-    "platzi"
-  ],
+  "description": "Codigo del curso profesional de javascript de https://platzi.com",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch3ber/javascript-profesional.git"
+  },
+  "keywords": [
+    "javascript",
+    "javascript-avanzado"
+  ],
+  "author": "Eber Edrey Alejo Berrones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ch3ber/javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/ch3ber/javascript-profesional#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3"
+    "live-server": "1.2.1",
+    "parcel-bundler": "1.12.3",
+    "typescript": "3.5.3"
   },
   "browserslist": [
     "last 1 Chrome version"
